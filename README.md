@@ -5,6 +5,10 @@
 
 - Clean and neat UserInterface.
 
-- Used HTML , CSS , JavaScript to Build
+** Tech Stack Used **
 
-<a><img src="https://i.ibb.co/gjXk6gK/calculator.jpg" alt="calculator" border="0"></a>
+- HTML 
+- CSS
+- JavaScript
+
+![caculator1.jpg](https://i.postimg.cc/NGbydDLY/caculator1.jpg)
