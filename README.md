@@ -1,7 +1,7 @@
 # My-Calculator
 **My Calculator**
 
-- Using this calculator we can perform all arithmetic operation
+- Using this calculator we can perform all arithmetic operation like addition , subraction , multiplication , division.
 
 - Clean and neat UserInterface.
 
