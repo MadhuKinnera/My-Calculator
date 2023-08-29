@@ -6,20 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <style>
-          h1{
+          p{
               color:teal;
               text-align:center;
+              font-size: 25px;
+          }
+          .heading{
+            font-weight: bold;
           }
           #container {
-              width:28%;
+              width:30%;
               margin:auto;
-              border:1px solid rgba(78, 51, 51, 0.184);;
+              border:1px solid rgba(78, 51, 51, 0.184);
+              /* border-radius: 10%; */
               display:grid;
-              grid-template-columns:repeat(4,70px);
+              grid-template-columns:repeat(4,15%);
               grid-template-rows:repeat(5,95px);
-              gap:0px 8px;
+              gap:0px 5%;
               justify-content: center;
-              box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.242);
+              box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.379);
               
           }
 
@@ -30,6 +35,7 @@
           #container> p+p:hover{
             color:rgb(228, 105, 23);
             background-color: rgba(21, 22, 21, 0.116);
+            cursor: pointer;
 
           }
           #container > p:first-child{
@@ -63,7 +69,7 @@
     </style>
 </head>
 <body>
-    <h1>My Calculator</h1>
+    <p class="heading">My Calculator</p>
 
 
     <div id="container">
@@ -107,13 +113,7 @@
         }
         
         else if(targetEle=="="){
-            // if(eval(bag)=="Infinity"){
-            //     document.querySelector("p").innerText="Madhu"
-            // }
-            // else
-            // {
-            //     document.querySelector("p").innerText=eval(bag);
-            // }
+          
             document.querySelector("p").innerText=eval(bag);
             
             
